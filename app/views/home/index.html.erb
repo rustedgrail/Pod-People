@@ -1,0 +1,6 @@
+<h1>Your Feeds</h1>
+<% @feeds.each do |feed| %>
+  <tr>
+    <td> <%= feed.name %></td>
+    <td> <%= feed.address %></td>
+    <td> <%= feed.tag %></td>
